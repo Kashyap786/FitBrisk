@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schedules</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="">Fit<span>Brisk</span></a>
+            </div>
+            <a href="javascript:void(0)" class="ham-burger">
+                <span></span>
+                <span></span>
+            </a>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="schedules.html">Schedules</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="price.html">Price</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="schedule" id="schedule">
+        <div class="container">
+              <div class="content">
+                     <div class="box text">
+                            <h2>Classes Schedule</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            </p>
+                            <img src="images/schedule1.png" alt="schedule" />
+                     </div>
+                     <div class="box timing">
+                    <table class="table">
+                         <tbody>
+                             <tr>
+                                 <td class="day">Monday</td>
+                                 <td><strong>9:00 AM</strong></td>
+                                 <td>Body Building <br/> 9:00 to 10:00 AM</td>
+                                 <td>Room No:210</td>
+                             </tr>
+                             <tr>
+                                 <td class="day">Tuesday</td>
+                                 <td><strong>9:00 AM</strong></td>
+                                 <td>Body Building <br/> 9:00 to 10:00 AM</td>
+                                 <td>Room No:210</td>
+                             </tr>
+                             <tr>
+                                 <td class="day">Wednesday</td>
+                                 <td><strong>9:00 AM</strong></td>
+                                 <td>Body Building <br/> 9:00 to 10:00 AM</td>
+                                 <td>Room No:210</td>
+                             </tr>
+                             <tr>
+                                 <td class="day">Thursday</td>
+                                 <td><strong>9:00 AM</strong></td>
+                                 <td>Body Building <br/> 9:00 to 10:00 AM</td>
+                                 <td>Room No:210</td>
+                             </tr>
+                             <tr>
+                                 <td class="day">Friday</td>
+                                 <td><strong>9:00 AM</strong></td>
+                                 <td>Body Building <br/> 9:00 to 10:00 AM</td>
+                                 <td>Room No:210</td>
+                             </tr>
+                             <tr>
+                                 <td class="day">Saturday</td>
+                                 <td><strong>9:00 AM</strong></td>
+                                 <td>Body Building <br/> 9:00 to 10:00 AM</td>
+                                 <td>Room No:210</td>
+                             </tr>
+                         </tbody>
+                    </table>
+                     </div>
+              </div>
+        </div>
+   </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".ham-burger").click(function(){
+                $(".nav").toggleClass("open")
+                $(this).toggleClass("active");
+            })
+        })
+    </script>
+</body>
+</html>
